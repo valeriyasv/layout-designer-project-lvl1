@@ -1,41 +1,120 @@
 :root {
-    --wite-color: #fff;
-    --opacity-wite-color:#d7ccc0;
-    --light-color: #f5f4f0;
-    --main-color: #fe8a02;
-    --main-dark-color:  #42413c;
-    --dark-color: #2a2626;
-    --opacity-dark-color: #908d8b;
-    --brown-color: #b09a81;
-    --blue-color: #1085c5;
-    }
+  --wite-color: #fff;
+  --opacity-wite-color: #d7ccc0;
+  --light-color: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --opacity-dark-color: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+}
 
-    body {
-        font-size: 16px;
-        line-height: 1.6em;
-        color: #2A2626;
-    }
+@font-face {
+  font-family: Neucha;
+  src: url(/src/fonts/Neucha-Regular.ttf);
+}
 
-    h1,
-    h2,
-    h3 {
-        line-height: 1.2em;
-    }
+@font-face {
+  font-family: Open Sans;
+  src: url(/src/fonts/OpenSans-Regular.ttf);
+}
 
-    h1 {
-        font-size: 72px;
-    }
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+}
 
-    h2 {
-        font-size: 60px;
-    }
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
 
-    h3 {
-        font-size: 34px;
-    }
+h1 {
+  font-size: 72px;
+}
 
-    section {
-        max-width: 1110px;
-        padding: 100px 0;
-        vertical-align: middle;
-    }
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.main-img {
+  height: 525px;
+  position: absolute;
+  top: 45px;
+  right: -270px;
+  z-index: 0;
+}
+
+.paragraf-header {
+  width: 540px;
+  margin-top: 200px;
+}
+
+.main-text {
+  font-family: Open Sans;
+  display: flex;
+}
+
+.paragraf-header1 {
+  margin-right: 30px;
+}
+
+.orange-text {
+  color: var(--main-color);
+}
+
+.main_button {
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  color: var(--wite-color);
+  background-color: var(--main-color);
+  width: 148px;
+  height: 49px;
+  font-family: Open Sans, sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.flex-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraf-header2 {
+  margin-bottom: 40px;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header {
+  background: var(--light-color);
+  background-image: url(/src/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
