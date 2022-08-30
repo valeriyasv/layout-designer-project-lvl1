@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/valeriys/Рабочий стол/hexlet/layout-designer-project-lvl1'
+npm install
+make: Leaving directory '/home/valeriys/Рабочий стол/hexlet/layout-designer-project-lvl1'
+ 
