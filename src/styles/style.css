@@ -140,6 +140,7 @@ h4 {
 
 .video-main {
   position: relative;
+  bottom: -200px;
   z-index: 2;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
@@ -153,7 +154,7 @@ h4 {
 
 .main {
   position: relative;
-  bottom: 200px;
+
   padding-top: 100px;
   background: var(--dark-color);
 }
@@ -429,7 +430,7 @@ h4 {
 
 .all {
   position: relative;
-  bottom: 200px;
+
 }
 
 .footer {
