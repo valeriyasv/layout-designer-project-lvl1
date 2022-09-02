@@ -54,6 +54,10 @@ h4 {
   font-size: 52px;
 }
 
+.header-text {
+  line-height: 86.4px;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -76,6 +80,7 @@ h4 {
 .paragraf-header {
   width: 540px;
   margin-top: 200px;
+  line-height: 25.6px;
 }
 
 .main-text {
@@ -233,7 +238,7 @@ h4 {
   color: var(--wite-color);
 }
 
-.card:hover .Zagolovok {
+.card:hover .zagolovok {
   color: var(--wite-color);
 }
 
@@ -253,7 +258,7 @@ h4 {
   color: var(--wite-color);
 }
 
-.card1:hover .Zagolovok {
+.card1:hover .zagolovok {
   color: var(--wite-color);
 }
 
@@ -265,7 +270,7 @@ h4 {
   color: var(--wite-color);
 }
 
-.card4:hover .Zagolovok4 {
+.card4:hover .zagolovok4 {
   color: var(--wite-color);
 }
 
