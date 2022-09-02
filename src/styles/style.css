@@ -24,6 +24,8 @@ body {
   color: #2a2626;
   font-size: 16px;
   line-height: 1.6em;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1,
@@ -54,10 +56,6 @@ h4 {
   font-size: 52px;
 }
 
-.header-text {
-  line-height: 86.4px;
-}
-
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -71,7 +69,7 @@ h4 {
 
 .main-img {
   position: absolute;
-  top: 45px;
+  top: 50px;
   right: -270px;
   z-index: 0;
   height: 525px;
@@ -80,7 +78,6 @@ h4 {
 .paragraf-header {
   width: 540px;
   margin-top: 200px;
-  line-height: 25.6px;
 }
 
 .main-text {
