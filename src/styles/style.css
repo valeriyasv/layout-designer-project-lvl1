@@ -513,7 +513,7 @@ h4 {
 }
 
 .button::before {
-  content: url("/src/img/send.svg");
+  content: url("./img/send.svg");
   vertical-align: middle;
 }
 
@@ -546,7 +546,7 @@ h4 {
   width: 100%;
   height: 100%;
 
-  background-image: url("/src/img/background.png");
+  background-image: url("./img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -561,7 +561,7 @@ h4 {
   width: 100%;
   height: 100%;
 
-  background-image: url("/src/img/background.png");
+  background-image: url("./img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
