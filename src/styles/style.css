@@ -156,7 +156,7 @@ h4 {
   position: relative;
 
   padding-top: 100px;
-  background: var(--dark-color);
+  background: var(--main-dark-color);
 }
 
 .card {
@@ -164,14 +164,14 @@ h4 {
   width: 350px;
   height: 323px;
   padding: 24px;
-  background: var(--wite-color);
+  background: var(--light-color);
 }
 
 .cifra {
   height: 47px;
   margin-top: 0;
   margin-bottom: 40px;
-  color: var(--dark-color);
+  color: var(--main-dark-color);
   font-size: 64px;
   font-family: Neucha, sans-serif;
   line-height: 1;
@@ -206,7 +206,7 @@ h4 {
   margin-bottom: 30px;
   margin-left: 30px;
   padding: 24px;
-  background: var(--wite-color);
+  background: var(--light-color);
 }
 
 .card4 {
@@ -216,7 +216,7 @@ h4 {
   margin-right: 30px;
   margin-left: 30px;
   padding: 24px;
-  background: var(--wite-color);
+  background: var(--light-color);
 }
 
 .zagolovok4 {
@@ -443,7 +443,7 @@ h4 {
 
 .footerr {
   position: relative;
-  bottom: 200px;
+
 }
 
 .footer-text {
@@ -513,7 +513,7 @@ h4 {
 }
 
 .button::before {
-  content: url("./img/send.svg");
+  content: url("../img/send.svg");
   vertical-align: middle;
 }
 
