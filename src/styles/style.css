@@ -142,7 +142,7 @@ h4 {
 .video {
   position: relative;
   margin-bottom: -200px;
-  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .main-v {
@@ -451,12 +451,12 @@ h4 {
 .img2 {
   margin-left: 30px;
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .img {
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .p {
