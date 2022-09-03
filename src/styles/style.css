@@ -17,15 +17,15 @@
 
 @font-face {
   font-family: "Open Sans";
-  src: url('../fonts/OpenSans-Regular.ttf')
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   color: #2a2626;
   font-size: 16px;
   line-height: 1.6em;
-  width: 100vw;
-  height: 100vh;
 }
 
 h1,
@@ -121,41 +121,37 @@ h4 {
 }
 
 .header {
-  background: var(--light-color);
   position: relative;
+  background: var(--light-color);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main-main-text {
   text-align: center;
-
 }
 
 .paragraf-main {
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
-
 }
 
 .video {
+  position: relative;
   margin-bottom: -200px;
- position: relative;
- filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
 }
 
-.main- {
+.main-v {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
 .main {
-
   padding-top: 100px;
   background: var(--main-dark-color);
 }
@@ -196,7 +192,7 @@ h4 {
   line-height: 1;
 }
 
-.-card {
+.c-card {
   text-decoration: none;
 }
 
@@ -326,13 +322,12 @@ h4 {
 
 .card4:hover .card-paragraf {
   color: var(--wite-color);
-} 
+}
 
 .navigator {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .flexx {
@@ -456,12 +451,12 @@ h4 {
 .img2 {
   margin-left: 30px;
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
 }
 
 .img {
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
 }
 
 .p {
@@ -481,20 +476,18 @@ h4 {
 
 .all {
   position: relative;
-
 }
 
 .footer {
-  width: 1110px;
-  height: 190px;
   display: flex;
   align-items: center;
+  width: 1110px;
+  height: 190px;
   background: var(--main-dark-color);
 }
 
 .footerr {
   position: relative;
-
 }
 
 .footer-text {
@@ -570,8 +563,8 @@ h4 {
 
 .end {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   margin-top: 60px;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
