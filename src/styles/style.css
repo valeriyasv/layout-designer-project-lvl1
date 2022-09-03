@@ -272,6 +272,38 @@ h4 {
   background: var(--main-color);
 }
 
+.card400:hover {
+  background: var(--main-color);
+}
+
+.card00:hover {
+  background: var(--main-color);
+}
+
+.card400:hover .cifra {
+  color: var(--wite-color);
+}
+
+.card400:hover .zagolovok {
+  color: var(--wite-color);
+}
+
+.card400:hover .card-paragraf {
+  color: var(--wite-color);
+}
+
+.card00:hover .cifra {
+  color: var(--wite-color);
+}
+
+.card00:hover .zagolovok {
+  color: var(--wite-color);
+}
+
+.card00:hover .card-paragraf {
+  color: var(--wite-color);
+}
+
 .card1:hover .cifra {
   color: var(--wite-color);
 }
